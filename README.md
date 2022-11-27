@@ -2,29 +2,39 @@
 
 ## Summary
 Project to get data from my Solaris S6 inverter into Home Assistant by MQTT.
+
 This avoids the cost of buying a dongle and any delays/security issues with using the cloud based apps.
+
 Thanks to RichardL64 https://github.com/RichardL64/Solar for seeding the idea.
 
 ## Background
 I had a project to install Solar PV, a GivEnergy Hybrid Inverter, and GivEnergy batteries scheduled for completion in September 2022.
+
 The panels were installed and the batteries delivered but the hybrid inverter was delayed repeatedly, so I decided to install a "cheap" £300 Solaris S6 inverter with the aim of learning how my panels perform so that I can develope operating strategies before the GivEnergy installation is complete.
+
 This would require collection of data into Home Assistant to compare with consupmtion patterns and solar generation forecasts.
+
 The S6 didn't come with a dongle, so I decided to make my own, this avoids the £75 cost of buying one and any delays/security issues with using the cloud based apps.
 Here is the inverter installed in my loft.
+
 ![installed_inverter.jpg](/assets/installed_inverter.jpg)
 
 ## Hardware:
-The hardware used for this project
+The hardware used for this project:
 - Arduino Nano33 IOT (plus USB power supply)
 - Puretek XY-017 RS485 TO TTL Breakout For Arduino buy here https://www.ebay.co.uk/itm/274273632839
   (note: the silkscreen for the RS485 cables is marked back to front - so if it doesn’t work - swap the cables).
 - Exceedconn EC04681-2023-BF Male/Female for Solis/Ginlong Inverter RS-485 port buy here https://www.ebay.co.uk/itm/195464332269
 - Breadboard and jumpers
-- 
+
 Here is my Fritzing sketch of the set up.
+
 ![fritzing.png](/assets/fritzing.png)
+
 And this is what it looks like installed on the right.
+
 ![nano33.jpg](/assets/nano33.jpg)
+
 Note the left Nano33 is monitoring a CT on the inverter-distribution board, and the Sonoff Mini-1 to the extreme right runing Tasmota has a temperature sensor wired to GPI04. I had them to hand and used these to keep a check on the inverter while I was developing this project.
 
 ## Please note:
