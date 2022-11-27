@@ -1,16 +1,19 @@
 # SolarisS6ArduinoMqtt
 
+##Background
 Project to get data from my Solaris S6 inverter into Home Assistant by MQTT.
 This avoids the cost of buying a dongle and any delays/security issues with using the cloud based apps.
 Thanks to RichardL64 https://github.com/RichardL64/Solar for seeding the idea.
 
-Hardware:
+
+
+##Hardware:
 Arduino Nano33 IOT (plus USB power supply)
 Puretek XY-017 RS485 TO TTL Breakout For Arduino buy here https://www.ebay.co.uk/itm/274273632839
 (note: the silkscreen for the RS485 cables is marked back to front - so if it doesn’t work - swap the cables).
 Exceedconn EC04681-2023-BF Male/Female for Solis/Ginlong Inverter RS-485 port buy here https://www.ebay.co.uk/itm/195464332269
 
-Please note:
+##Please note:
 a) The code is fairly simple and undocumented.
 b) The arduino just posts out the modbus data by mqtt as soon as it reads it, so there isn't any need to hold it locally. It's just keep it in global variables.
 c) The functions are crude and do contain some duplications. Configuration for things like modbus and mqtt is hard coded into the functions.
