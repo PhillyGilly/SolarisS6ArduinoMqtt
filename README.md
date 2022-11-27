@@ -29,11 +29,11 @@ The hardware used for this project:
 
 Here is my Fritzing sketch of the set up.
 
-![fritzing.png]((https://github.com/PhillyGilly/SolarisS6ArduinoMqtt/blob/main/fritzing.png)
+![fritzing.png](https://github.com/PhillyGilly/SolarisS6ArduinoMqtt/blob/main/fritzing.png)
 
 And this is what it looks like installed on the right.
 
-![nano33.jpg]((https://github.com/PhillyGilly/SolarisS6ArduinoMqtt/blob/main/nano33.jpg)
+![nano33.jpg](https://github.com/PhillyGilly/SolarisS6ArduinoMqtt/blob/main/nano33.jpg)
 
 Note the left Nano33 is monitoring a CT on the inverter-distribution board, and the Sonoff Mini-1 to the extreme right runing Tasmota has a temperature sensor wired to GPI04. I had them to hand and used these to keep a check on the inverter while I was developing this project.
 
