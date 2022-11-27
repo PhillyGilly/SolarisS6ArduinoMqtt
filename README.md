@@ -11,7 +11,7 @@ The panels were installed and the batteries delivered but the hybrid inverter wa
 This would require collection of data into Home Assistant to compare with consupmtion patterns and solar generation forecasts.
 The S6 didn't come with a dongle, so I decided to make my own, this avoids the £75 cost of buying one and any delays/security issues with using the cloud based apps.
 Here is the inverter installed in my loft.
-![installed_inverter.jpg](installed_inverter.jpg)
+![installed_inverter.jpg](/assets/installed_inverter.jpg)
 
 ## Hardware:
 The hardware used for this project
@@ -20,10 +20,11 @@ The hardware used for this project
   (note: the silkscreen for the RS485 cables is marked back to front - so if it doesn’t work - swap the cables).
 - Exceedconn EC04681-2023-BF Male/Female for Solis/Ginlong Inverter RS-485 port buy here https://www.ebay.co.uk/itm/195464332269
 - Breadboard and jumpers
+- 
 Here is my Fritzing sketch of the set up.
-![fritzing.png](fritzing.png)
+![fritzing.png](/assets/fritzing.png)
 And this is what it looks like installed on the right.
-![nano33.jpg](nano33.jpg)
+![nano33.jpg](/assets/nano33.jpg)
 Note the left Nano33 is monitoring a CT on the inverter-distribution board, and the Sonoff Mini-1 to the extreme right runing Tasmota has a temperature sensor wired to GPI04. I had them to hand and used these to keep a check on the inverter while I was developing this project.
 
 ## Please note:
