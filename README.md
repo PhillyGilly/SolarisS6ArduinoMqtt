@@ -42,6 +42,7 @@ Note the left Nano33 is monitoring a CT on the inverter-distribution board, and 
 2. The arduino just posts out the modbus data by mqtt as soon as it reads it, so there isn't any need to hold it locally. It's just keep it in global variables.
 3. The functions are crude and do contain some duplications. Configuration for things like modbus and mqtt is hard coded into the functions.
 4. As the purpose is to get data into Home Assistant there is quite a lot of mqtt associated with device/entity auto-discovery. This is what it looks like in HA:
+
 ![image](https://user-images.githubusercontent.com/56273663/204502516-35139f37-e696-4d61-b7f6-f2f6f8d1e17e.png)
 
 5. The inverter powers down completely when the sun isn't shining (option in the Advanced settings: 24H Switch Disabled) to avoind powering the interter at ~60W overnight. To avoid the risk of corrupted values arriving in HA, the code tests to see if the modbus has stopped communicating to detect inverter powered down.
