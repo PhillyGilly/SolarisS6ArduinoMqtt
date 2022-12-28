@@ -12,7 +12,7 @@ I had a project to install Solar PV, a GivEnergy Hybrid Inverter, and GivEnergy 
 
 The panels were installed and the batteries delivered but the hybrid inverter was delayed repeatedly, so I decided to install a "cheap" £300 Solaris S6 inverter with the aim of learning how my panels perform so that I can develope operating strategies before the GivEnergy installation is complete.
 
-This would require collection of data into Home Assistant to compare with consupmtion patterns and solar generation forecasts.
+This would require collection of data into Home Assistant to compare with consumption patterns and solar generation forecasts.
 
 The S6 didn't come with a dongle, so I decided to make my own, this avoids the £75 cost of buying one and any delays/security issues with using the cloud based apps.
 Here is the inverter installed in my loft.
