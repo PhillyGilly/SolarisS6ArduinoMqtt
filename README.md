@@ -24,7 +24,7 @@ The hardware used for this project:
 - Arduino Nano33 IOT (plus USB power supply)
 - Puretek XY-017 RS485 TO TTL Breakout For Arduino buy here https://www.ebay.co.uk/itm/274273632839
   (note: the silkscreen for the RS485 cables is marked back to front - so if it doesn’t work - swap the cables).
-- Exceedconn EC04681-2023-BF Male/Female for Solis/Ginlong Inverter RS-485 port buy here https://www.ebay.co.uk/itm/195464332269
+- Exceedconn EC04681-2023-BF Male/Female for Solis/Ginlong Inverter RS-485 port buy here www.ebay.co.uk/itm/195668989940
 - Breadboard, jumpers and enclosure
 
 Here is my Fritzing sketch of the set up.
