@@ -1,10 +1,8 @@
-// 24/11/22 10:00
-// version 4.0
+// 09/11/23 13:00
+// version 4.0.1
 // working for modbus
 // includes read time
 // use ArduinoMQTT
-// future.  write time
-// use structures/arrays??
 
 #include <SPI.h>
 #include <WiFiNINA.h>
@@ -24,6 +22,7 @@ char  mqtt_pass[] = SECRET_MQTT_PASS;
 //For mqtt
 String topicStr;
 String contentStr;
+
 //For EM
 double activePower;
 double totalEnergy;
@@ -55,7 +54,10 @@ NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 void setup() {
 //  Serial.begin(9600);
 // set up wifi
-  while (WiFi.begin(wifi_ssid, wifi_pass)!= WL_CONNECTED) {delay(1000);}
+  while (WiFi.begin(wifi_ssid, wifi_pass)!= WL_CONNECTED) {
+    Serial.println (".");
+    delay(1000);
+    }
  
 // set up MQTT  
   mqttClient.setId("nano33_1");
