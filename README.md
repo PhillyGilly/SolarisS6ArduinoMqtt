@@ -10,7 +10,7 @@ Thanks to RichardL64 https://github.com/RichardL64/Solar for seeding the idea.
 ## Background
 I had a project to install Solar PV, a GivEnergy Hybrid Inverter, and GivEnergy batteries scheduled for completion in September 2022.
 
-The panels were installed and the batteries delivered but the hybrid inverter was delayed repeatedly, so I decided to install a "cheap" £300 Solaris S6 inverter with the aim of learning how my panels perform so that I can develope operating strategies before the GivEnergy installation is complete.
+The panels were installed and the batteries delivered but the hybrid inverter was delayed repeatedly, so I decided to install a "cheap" £300 Solaris S6 inverter with the aim of learning how my panels perform so that I can develop operating strategies before the GivEnergy installation is complete.
 
 This would require collection of data into Home Assistant to compare with consumption patterns and solar generation forecasts.
 
