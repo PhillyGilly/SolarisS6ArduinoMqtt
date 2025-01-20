@@ -39,7 +39,7 @@ Here is my Fritzing sketch of the set up.
 
 ![image](https://user-images.githubusercontent.com/56273663/204502516-35139f37-e696-4d61-b7f6-f2f6f8d1e17e.png)
 
-5. The inverter powers down completely when the sun isn't shining (option in the Advanced settings: 24H Switch Disabled) to avoind powering the interter at ~60W overnight. To avoid the risk of corrupted values arriving in HA, the code tests to see if the modbus has stopped communicating to detect inverter powered down.
+5. The inverter powers down completely when the sun isn't shining (option in the Advanced settings: 24H Switch Disabled) to avoid powering the interter at ~60W overnight. To avoid the risk of corrupted values arriving in HA, the code tests to see if the modbus has stopped communicating to detect inverter powered down.
 When that is detected "dynamic" values are set to 0 and "integrated" values are set to their last known value.
 6. The password for OTA is hard  coded. All other passwords etc. need setting in arduino-secrets.h 
 
