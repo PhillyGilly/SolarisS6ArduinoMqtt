@@ -44,7 +44,7 @@ When that is detected "dynamic" values are set to 0 and "integrated" values are 
 6. The password for OTA is hard  coded. All other passwords etc. need setting in arduino-secrets.h 
 
 ## Future work:
-7. Synchronise the inverter time with the Arduino (and HA). The code reads the time from the Solaris and writes it in json so it can be read.
+7. Synchronise the inverter time with the Arduino (and HA). The code reads the time from the Solis and writes it in json so it can be read.
 But I haven't worked out how to get the time data in the Arduino and format it to be written into the modbus.
 8. Data resolution. Active Power only reports to the nearest 20W.
 This seems weird for an unsigned short (i.e. 0 to 65,535) and an 3.6kW inverter (i.e. 0 to 3,600).  I would have expected to see reporting to the nearest 0.1W.
