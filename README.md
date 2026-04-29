@@ -1,4 +1,4 @@
-# SolarisS6ArduinoMqtt
+# SolisS6ArduinoMqtt
 
 ## Summary
 Project to get data from my Solaris S6 inverter into Home Assistant by MQTT.
