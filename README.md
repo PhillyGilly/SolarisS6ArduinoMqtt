@@ -1,7 +1,7 @@
 # SolisS6ArduinoMqtt
 
 ## Summary
-Project to get data from my Solaris S6 inverter into Home Assistant by MQTT.
+Project to get data from my Solis S6 inverter into Home Assistant by MQTT.
 
 This avoids the cost of buying a dongle and any delays/security issues with using the cloud based apps.
 
@@ -10,7 +10,7 @@ Thanks to RichardL64 https://github.com/RichardL64/Solar for seeding the idea.
 ## Background
 I had a project to install Solar PV, a GivEnergy Hybrid Inverter, and GivEnergy batteries scheduled for completion in September 2022.
 
-The panels were installed and the batteries delivered but the hybrid inverter was delayed repeatedly, so I decided to install a "cheap" £300 Solaris S6 inverter with the aim of learning how my panels perform so that I can develop operating strategies before the GivEnergy installation is complete.
+The panels were installed and the batteries delivered but the hybrid inverter was delayed repeatedly, so I decided to install a "cheap" £300 Solis S6 inverter with the aim of learning how my panels perform so that I can develop operating strategies before the GivEnergy installation is complete.
 
 This would require collection of data into Home Assistant to compare with consumption patterns and solar generation forecasts.
 
